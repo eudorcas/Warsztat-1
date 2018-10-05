@@ -10,7 +10,150 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header class="page__header">
+
+        <div class="container">
+            <h1 class="page__logo">
+                <a href="/" class="page__logo-link">
+                    Sit <span>on</span> chair
+                </a>
+            </h1>
+            <nav class="page__nav">
+                <ul class="page__nav-list">
+                    <li><a href="">O firmie</a>
+                        <ul class="page__nav-sublist">
+                            <li><a href="">Aktualności</a></li>
+                            <li><a href="">Nasz team</a></li>
+                            <li><a href="">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Galeria</a></li>
+                    <li><a href="">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <section class="main-banner__bg">
+        <div class="container">
+            <div class="banner">
+                <button class="banner__prev">&lt;</button>
+                <button class="banner__next">&gt;</button>
+                <div class="banner__slides">
+                    <div class="banner__slide-active">
+                    </div>
+                    <div class="banner__slide">
+                    </div>
+                    <div class="banner__slide">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="main__articles">
+        <div class="container">
+        <div class="row">
+            <div class="col__1-3">
+                <article class="article__box">
+                    <img src="./images/box1_img.jpg" alt="" class="article__box-img">
+                    <div class="article__box-bar">
+                        <h3 class="article__box-title">
+                           Chair CLAIR
+                        </h3>
+                    </div>
+                </article>
+            </div>
+            <div class="col__1-3">
+                <article class="article__box">
+                    <img src="./images/box2_img.jpg" alt="" class="article__box-img">
+                    <div class="article__box-bar">
+                        <h3 class="article__box-title">
+                            Chair MARGERITA
+                        </h3>
+                    </div>
+                </article>
+            </div>
+            <div class="col__1-3">
+                <article class="article__box-text">
+                    <h3 class="article__box-title">
+                        Find all imputs
+                    </h3>
+                    <div class="article__box-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda iure perspiciatis veritatis. Adipisci assumenda excepturi harum itaque iure libero nemo nisi quam saepe? Ad, aliquam animi consequuntur hic necessitatibus nemo.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ex hic illo, molestias quod ullam ut? Ad alias eum explicabo maxime nihil obcaecati officia, officiis optio, perferendis quod rem sunt.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="main__prices">
+        <div class="container">
+            <h2 class="section__title">
+                Cennik
+            </h2>
+            <div class="row">
+                <div class="col__1-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, fugit, nemo? Asperiores atque eos fugit id, molestias pariatur qui veritatis vero vitae. Animi at blanditiis distinctio, eos error eveniet laborum nihil odit placeat quas quia quibusdam quod repellendus, soluta unde? A alias assumenda at deserunt doloribus eligendi error, eveniet facilis fuga, hic molestiae molestias, sint sit temporibus ullam unde vitae voluptates. At autem deserunt dolor eaque eos esse, et eveniet fuga illum ipsum itaque labore minima quae quaerat quas quasi quidem recusandae sequi sit vel? Accusamus, amet consequatur eligendi eum maiores molestiae odit, omnis perspiciatis porro, quas quia quisquam repudiandae?</div>
+                <div class="col__1-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aut beatae cum error inventore quaerat sed. Accusamus architecto dignissimos doloremque, eaque illo ipsum magnam maxime officia perspiciatis quae quasi tempora tenetur veritatis voluptatem voluptatibus. Accusamus alias aliquam aliquid amet consectetur culpa cum dicta eos et eveniet fuga inventore magni maiores natus nemo, nulla obcaecati perferendis placeat quasi qui quis recusandae rerum, similique, ullam vero? Aliquid asperiores blanditiis commodi dolor dolore doloremque, eaque, in ipsam recusandae reiciendis repellat similique tempora? Culpa dolor ea ex minima, mollitia natus nesciunt nobis numquam qui, sapiente sint tempore! Earum laborum odit possimus provident saepe?</div>
+                <div class="col__1-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eius facere maiores nulla perspiciatis? Ducimus eveniet facilis fugiat ipsam molestias nihil omnis tenetur! Accusamus aperiam, consequatur dolores enim fugiat fugit harum ipsam neque nihil, officia omnis pariatur reiciendis sit sunt vel voluptatem voluptates, voluptatum. Error et quae recusandae rerum veniam. Ab animi blanditiis dolor est facere fugit ipsam ipsum laborum maiores, molestiae obcaecati odit pariatur quaerat sint, sunt. Ad architecto consequatur, dignissimos dolor enim eum expedita facere iste itaque iure labore modi molestiae molestias natus neque nesciunt porro quasi quia quidem quos repellat reprehenderit rerum sapiente veritatis voluptate voluptates voluptatibus?</div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="main__contact">
+        <div class="container">
+            <h2 class="section__title">
+                Kontakt
+            </h2>
+            <form class="form">
+                <div class="form__left">
+                    <div class="form__row">
+                        <label for="name" class="visuallyhidden">Imię</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Imię">
+                    </div>
+                    <div class="form__row">
+                        <label for="email" class="visuallyhidden">E-mail</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="form__row">
+                        <label for="msg" class="visuallyhidden">Wiadomość</label>
+                        <textarea class="form-control" id="msg" name="msg" placeholder="Wiadomość"></textarea>
+                    </div>
+                </div>
+
+                <div class="form__right">
+                    <div class="form__img"></div>
+                    <div class="form__row">
+                        <label class="form__checkbox">
+                            <input type="checkbox" name="regulations">
+                            <span>
+                                Zgadzam się na przetwarzanie danych osobowych.
+                            </span>
+                        </label>
+
+                    </div>
+                    <div class="form__row">
+                        <button type="submit" class="btn form__submit">
+                            Wyślij!
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
 
 
 </body>
